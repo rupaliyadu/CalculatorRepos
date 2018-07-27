@@ -18,6 +18,8 @@ public class Calc {
 		// call sub function
 		res = c.sub(num1, num2);
 		System.out.println("Result of Sub is:" + res); 
+		
+		System.out.println("Good Bye !!" );
 
 	}
 	
