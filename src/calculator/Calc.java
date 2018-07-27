@@ -6,8 +6,8 @@ public class Calc {
 		// TODO Auto-generated method stub
 		
 		int res, num1, num2;
-		num1 = 10;
-		num2 = 20;
+		num1 = 20;
+		num2 = 10;
 		
 		Calc c = new Calc(); // initialize object
 		
@@ -19,8 +19,9 @@ public class Calc {
 		res = c.sub(num1, num2);
 		System.out.println("Result of Sub is:" + res); 
 		
-		System.out.println("Good Bye !!" );
-
+		// call div function
+		res = c.div(num1, num2);
+		System.out.println("Result of Div is:" + res); 
 	}
 	
 	public  int add(int a, int b) {
@@ -38,4 +39,8 @@ public class Calc {
 		}
 		return c;
 	}
+	
+	public int div (int a, int b){
+		return a/b;
+	}	
 }
